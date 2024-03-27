@@ -1,0 +1,33 @@
+:root {
+    --purple-400: #8615df;
+    --purple-500: #570e91;
+    --purple-700: #38085c;
+    --purple-900: #190429;
+    --gray-900: #0e0e0f;
+    --grey-600: #666665;
+    --grey-500: #9e9ea7;
+    --grey-300: #F2F2F2;
+    --grey-200: #F6F6F7;
+    --grey-100: #F5F5F5;
+    --red-500: #df1545;
+    --green-500: #168821;
+  }
+  
+  body, input, button, textarea {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 100%;
+  
+    max-height: 200px;
+  }
